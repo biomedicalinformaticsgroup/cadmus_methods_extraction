@@ -40,13 +40,13 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up `cadmus` for local development.
+Ready to contribute? Here's how to set up `cadmus-methods-extraction` for local development.
 
-1. Download a copy of `cadmus` locally.
-2. Install `cadmus` using `pip`:
+1. Download a copy of `cadmus-methods-extraction` locally.
+2. Install `cadmus-methods-extraction` using `pip`:
 
     ```console
-    $ pip install ./cadmus
+    $ pip install ./cadmus-methods-extraction
     ```
 
 ## Pull Request Guidelines
@@ -59,5 +59,5 @@ Before you submit a pull request, check that it meets these guidelines:
 
 ## Code of Conduct
 
-Please note that the `cadmus` project is released with a 
-Code of Conduct. By contributing to this project you agree to abide by its terms.
+Please note that the `cadmus-methods-extraction` project is released with a 
+Code of Conduct. By contributing to this project, you agree to abide by its terms.
