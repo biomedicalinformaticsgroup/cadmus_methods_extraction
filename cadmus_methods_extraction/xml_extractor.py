@@ -12,11 +12,11 @@ import pandas as pd
 from typing import Tuple, Optional
 from ftfy import fix_text
 
-from cadmus.extract_methods.section_detection_rules import (
+from cadmus_methods_extraction.section_detection_rules import (
     is_start_of_materials_methods,
     is_end_of_materials_methods,
 )
-from cadmus.extract_methods.utils import setup_logger, ensure_dir
+from cadmus_methods_extraction.utils import setup_logger, ensure_dir
 
 
 def can_handle(pmid: str, cadmus_base_dir: str, metadata_row: pd.Series, logger: logging.Logger = None) -> Tuple[bool, Optional[str]]:
