@@ -7,7 +7,7 @@ import logging
 from pathlib import Path
 import json
 import pandas as pd
-from cadmus.extract_methods.utils import setup_logger, ensure_dir
+from cadmus_methods_extraction.utils import setup_logger, ensure_dir
 from typing import Tuple, Optional
 
 
