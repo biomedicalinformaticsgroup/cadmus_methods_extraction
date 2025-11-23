@@ -1,4 +1,4 @@
-# cadmus-methods-extraction
+# cadmus_methods_extraction
 
 A lightweight standalone tool for extracting the Methods section from biomedical full-text articles, designed as a complement to [cadmus](https://github.com/biomedicalinformaticsgroup/cadmus).
 
@@ -8,19 +8,19 @@ This repository provides a solution for extracting the Methods (or Materials and
 cadmus-methods-extraction has a number of dependencies on other Python packages, as well as Python version requirements. It is recommended to install it in an isolated environment.
 
 ```bash
-conda create -n cadmus-methods-extraction python=3.11 -y
-conda activate cadmus-methods-extraction
+conda create -n cadmus_methods_extraction python=3.11 -y
+conda activate cadmus_methods_extraction
 conda install -c conda-forge poppler
 conda install pip
-git clone https://github.com/biomedicalinformaticsgroup/cadmus-methods-extraction.git
-pip install ./cadmus-methods-extraction
+git clone https://github.com/biomedicalinformaticsgroup/cadmus_methods_extraction.git
+pip install ./cadmus_methods_extraction
 ```
 
 ## Methods Section Extraction
 To run the methods section extraction, you need to have the `output` directory from `cadmus`. The methods section extraction will create a new directory with the extracted methods sections from each data type, as well as log files.
 
 ```python
-from cadmus-methods-extraction import extract_methods
+from cadmus_methods_extraction import extract_methods
 extract_methods(
     cadmus_base_dir="output",
     output_base="output_methods",
