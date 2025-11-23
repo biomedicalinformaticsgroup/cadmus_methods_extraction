@@ -11,13 +11,13 @@ from bs4 import BeautifulSoup
 from typing import Tuple, Optional
 
 # These two functions should come from wherever you implemented your section‐detection rules
-from cadmus.extract_methods.section_detection_rules import (
+from cadmus_methods_extraction.section_detection_rules import (
     is_start_of_materials_methods,
     is_end_of_materials_methods,
 )
 
 # Shared helpers (make sure utils.py implements these)
-from cadmus.extract_methods.utils import setup_logger, ensure_dir
+from cadmus_methods_extraction.utils import setup_logger, ensure_dir
 
 def can_handle(pmid: str, cadmus_base_dir: str, metadata_row: pd.Series, logger: logging.Logger = None) -> Tuple[bool, Optional[str]]:
     """
