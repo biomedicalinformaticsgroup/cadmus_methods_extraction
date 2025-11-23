@@ -1,7 +1,7 @@
 import setuptools
    
 setuptools.setup(
-    name="cadmus-methods-extraction",
+    name="cadmus_methods_extraction",
     version="0.1.0",
     author="Simona E. Doneva",
     author_email="donevasimona@gmail.com",
