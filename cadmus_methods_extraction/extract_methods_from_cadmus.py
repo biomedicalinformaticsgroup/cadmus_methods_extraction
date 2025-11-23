@@ -3,26 +3,26 @@ from pathlib import Path
 from typing import Optional
 import pandas as pd
 
-from cadmus.extract_methods.utils import (
+from cadmus_methods_extraction.utils import (
     read_retrieved_dataframe,
     ensure_dir,
     setup_logger,
     write_summary_stats,
 )
 
-from cadmus.extract_methods.xml_extractor import (
+from cadmus_methods_extraction.xml_extractor import (
     can_handle as xml_can_handle,
     extract_methods as xml_extract,
 )
-from cadmus.extract_methods.html_extractor import (
+from cadmus_methods_extraction.html_extractor import (
     can_handle as html_can_handle,
     extract_methods as html_extract,
 )
-from cadmus.extract_methods.pdf_extractor import (
+from cadmus_methods_extraction.pdf_extractor import (
     can_handle as pdf_can_handle,
     extract_methods as pdf_extract,
 )
-from cadmus.extract_methods.plain_extractor import (
+from cadmus_methods_extraction.plain_extractor import (
     can_handle as plain_can_handle,
     extract_methods as plain_extract,
 )
