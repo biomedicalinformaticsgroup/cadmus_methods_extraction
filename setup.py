@@ -24,5 +24,5 @@ setuptools.setup(
       'ftfy',
       'pyarrow==20.0.0',
       ],
-    python_requires='==3.11'
+    python_requires=">=3.11,<3.12"
 )
